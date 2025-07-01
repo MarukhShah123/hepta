@@ -1,0 +1,234 @@
+/* section one*/
+
+/*Main hero section styling*/
+.hero-section {
+    background-image: url('https://plus.unsplash.com/premium_photo-1688410049290-d7394cc7d5df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA3fHx0cmF2ZWx8ZW58MHx8MHx8fDA%3D');
+    background-repeat: no-repeat;
+    /*background-image*/
+    background-size: cover;
+    background-position:  center;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    position:relative;
+}
+/* Header bar with log & menu icon*/
+header{
+    display: flex;
+    /*:horizontal layout*/
+    justify-content: space-between;
+    /*space betwwen log & manu*/
+    padding: 40px 50px;
+    font-weight:bold;
+    color:white;
+}
+    /*centered hero text block*/
+.hero-text {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/*Main heading style*/
+.hero-text h1{
+    font-size: 60px;
+    font-weight:700;
+}
+/*Subtext style*/
+.hero-text p{
+          font-size:18px;
+          margin-top:10px;
+          font-weight:normal;
+}
+
+ /*Right side:hamburger menu icon*/
+.manu-icon {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.scroll-down{
+    position: relative;
+    top:calc(50% +100px);
+     align-items: center;
+     font-size:15px;
+     color:#fff;
+     /*transform: translate(-10%);*/
+}
+/* section 2*/
+.section-two {
+    display: flex;
+    margin: 40px;
+    margin-inline-start: 20%;
+   
+}
+
+.button,span, img{
+    color:#2E8B57;
+    font-size:20px;
+}
+
+/*section-three*/
+.body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    text-align: center !important;
+    font-family:  sans-serif;
+}
+
+.container div {
+    width: 33.33%;
+    font: size 30px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family:sans-serif;
+}
+
+.service-box-1 {
+    width: 250px;
+    flex: 1;
+    background: #fff;
+    /* margin: 10px; */
+    /* text-align: center; */
+}
+
+.service-box-2 {
+    text-align: center;
+}
+
+/*section 4*/
+.h2{
+    font-size: 35px;
+}
+.blog-posts-contanier {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 33.33%;
+    font-size: 30px;
+}
+
+.forth{
+    display: flex;
+    text-align: center;
+    gap:0;
+   
+}
+.img{
+    gap:2px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+   
+}
+.forth div{
+    width: 33.33%;
+    gap:2px;
+}
+
+/* section 5*/
+.reviews{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 60px;
+    padding-top: 60px;
+}
+.pics{
+    display: flex;
+    text-align: center;
+   
+}
+    /* float:left;
+    padding-inline-start: 30%;
+    margin-bottom: 400px; */
+
+    .pics div{
+    width: 33.33%; 
+}
+.pic1{
+    border-radius: 30%;
+}
+.pic2{
+    border-radius: 30%;
+    object-fit: cover;
+}
+.pic3{
+    border-radius: 30%;
+}
+  /*section-six*/
+.container-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    padding-top: 60px;
+
+   
+}
+.section {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 23%;
+    min-width: 500px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* section-7*/
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    padding-top: 60px;
+
+}
+.h3{
+    color:#333;
+}
+#white-heading{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    width:100%;
+    min-height:350px;
+    text-align: center;
+    color:#D3D3D3;
+    font-size: 14px;
+}
+
+.li, ul{
+    color:grey;
+}
+.footer.copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
